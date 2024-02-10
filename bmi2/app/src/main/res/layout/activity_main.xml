@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:translationY="150dp"
+        app:srcCompat="@drawable/fat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="BMI Calculator"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:translationX="115dp"
+        android:translationY="150dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fcd0b3"
+        android:onClick="onNext"
+        android:text="Узнать свой BMI"
+        android:textSize="18dp"
+        android:translationX="60dp"
+        android:translationY="250dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Следи за свои здоровьем"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationX="100dp"
+        android:translationY="100dp" />
+
+</LinearLayout>
